@@ -42,11 +42,7 @@ public class HrSelect {
 				String emphireDate = rs.getString("emp_hiredate");
 				String manhireDate = rs.getString("man_hiredate"); // 콤마 안에는 열이름을 적어주는데, db에 출력되는 열이름을 그대로 써주어야한다.
 
-				System.out.println(employeeId + "\t" + lastName + "\t" + emphireDate + "\t" + manhireDate); // 한 줄씩
-																											// 내려가면서
-																											// authorName값을
-																											// 출력한다.
-
+				System.out.println(employeeId + "\t" + lastName + "\t" + emphireDate + "\t" + manhireDate);
 			}
 
 		} catch (ClassNotFoundException e) {
